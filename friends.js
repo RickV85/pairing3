@@ -4,3 +4,9 @@ for (var i = 0; i < shoeSize.length; i++) {
   if (shoeSize[i] >= 31)
   console.log(shoeSize[i])
 }
+console.log("========");
+
+for (var i = 0; i < shoeSize.length; i++) {
+  if (shoeSize[i] < 60)
+  console.log(shoeSize[i])
+}
